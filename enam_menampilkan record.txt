@@ -1,0 +1,8 @@
+SELECT
+product_categories,
+STUFF((SELECT ';' + products.name
+FROM 
+WHERE product_categories_id = products.category_id
+FOR XML PATH (' ')), 1, 1, '') [id/name]
+GROUP BY product_categories_id, product_categories_name
+ORDER BY 1

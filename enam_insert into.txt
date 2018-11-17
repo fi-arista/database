@@ -1,0 +1,8 @@
+INSERT INTO product_categories
+VALUES (1, 'Peralatan Mandi', 2014-12-22 12:45:34); 
+
+INSERT INTO product_categories
+VALUES (2, 'Minuman Kemasan', 2014-12-22 12:46:34); 
+
+INSERT INTO product_categories
+VALUES (3, 'Produk Susu', 2014-12-22 12:47:34); 

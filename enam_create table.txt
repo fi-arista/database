@@ -1,0 +1,7 @@
+CREATE TABLE product_categories (
+    id int NOT NULL
+AUTO INCREMENT,
+    name varchar(100),
+    created date datetime,
+PRIMARY KEY(id)
+);
