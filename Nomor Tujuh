@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Baaaaaam</h1>
+  <p>I'm not sure what am I supposed to do at this point so here's uhh- a dummy to (hopefully) get some points for trying?</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Table: product_categories</h3>
+      <p> id  name          created_date</p>
+      <p>1 Peralatan Mandi 2014-11-22 12:45:34</p>
+      <p>2 Minuman Kemasan 2014-11-22 12:46:34</p>
+      <p>3 Produk Susu 2014-11-22 12:47:34</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Table:products</h3>
+      <p>id name category_id created_date</p>
+ <p>1 Sabun Wangi 1 2014-12-22 12:45:34</p>
+ <p>2 Minuman Cola 2 2014-12-22 12:45:36</p>
+ <p>3 Prenagon Gold 3 2014-12-22 12:46:34</p>
+ <p>5 Aquaa 2 2014-12-22 12:47:34</p>
+ <p>6 The Botol 2 2014-12-22 12:48:34</p>
+ <p>7 Sampo 1 2014-12-22 12:48:40</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Query</h3>        
+     <p>id name products</p>
+<p>1 Peralatan Mandi Sabun Wangi, Sampo</p>
+<p>2 Minuman Kemasan Aquaa, The Botol</p>
+<p>3 Produk Susu Prenagon Gold</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
